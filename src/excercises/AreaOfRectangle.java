@@ -8,13 +8,13 @@ public class AreaOfRectangle {
         Scanner input = new Scanner(System.in);
 
         System.out.println("What is the length of the rectangle?");
-        Double userLength = input.nextDouble();
+        int length = input.nextInt();
 
         System.out.println("What is the width of the rectangle?");
-        Double userWidth = input.nextDouble();
+        int width = input.nextInt();
 
-        Double rectangleArea = userLength * userWidth;
-        System.out.println("The area of your rectangle is" + rectangleArea);
+        int area = length * width;
+        System.out.println("The area of your rectangle is " + area);
 }
 
 }
